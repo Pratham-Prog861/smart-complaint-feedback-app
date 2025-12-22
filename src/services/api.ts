@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Update this to your backend URL
 // Use your computer's IP address when testing on a physical device
-const API_URL =  process.env.EXPO_PUBLIC_API_URL || 'http://192.168.x.x:5000/api';
+const API_URL =  process.env.EXPO_PUBLIC_API_URL || 'https://smart-complaint-feedback-app.onrender.com/api';
 
 console.log('API URL configured as:', API_URL);
 
