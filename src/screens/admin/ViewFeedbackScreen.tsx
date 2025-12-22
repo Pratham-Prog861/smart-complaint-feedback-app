@@ -81,9 +81,10 @@ export const ViewFeedbackScreen: React.FC<ViewFeedbackProps> = ({ navigation }) 
           <View className="rounded-lg border border-gray-300 bg-white">
             <Picker
               selectedValue={categoryFilter}
-              onValueChange={(value) => setCategoryFilter(value)}>
+              onValueChange={(value) => setCategoryFilter(value)}
+              style={{ color: '#000000' }}>
               {categories.map((cat) => (
-                <Picker.Item key={cat} label={cat} value={cat} />
+                <Picker.Item key={cat} label={cat} value={cat} color="#000000" />
               ))}
             </Picker>
           </View>

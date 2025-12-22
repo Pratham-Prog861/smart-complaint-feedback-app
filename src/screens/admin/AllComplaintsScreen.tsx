@@ -82,9 +82,10 @@ export const AllComplaintsScreen: React.FC<AllComplaintsProps> = ({ navigation }
             <View className="rounded-lg border border-gray-300 bg-white">
               <Picker
                 selectedValue={categoryFilter}
-                onValueChange={(value) => setCategoryFilter(value)}>
+                onValueChange={(value) => setCategoryFilter(value)}
+                style={{ color: '#000000' }}>
                 {categories.map((cat) => (
-                  <Picker.Item key={cat} label={cat} value={cat} />
+                  <Picker.Item key={cat} label={cat} value={cat} color="#000000" />
                 ))}
               </Picker>
             </View>
@@ -95,9 +96,10 @@ export const AllComplaintsScreen: React.FC<AllComplaintsProps> = ({ navigation }
             <View className="rounded-lg border border-gray-300 bg-white">
               <Picker
                 selectedValue={statusFilter}
-                onValueChange={(value) => setStatusFilter(value)}>
+                onValueChange={(value) => setStatusFilter(value)}
+                style={{ color: '#000000' }}>
                 {statuses.map((status) => (
-                  <Picker.Item key={status} label={status} value={status} />
+                  <Picker.Item key={status} label={status} value={status} color="#000000" />
                 ))}
               </Picker>
             </View>

@@ -71,12 +71,13 @@ export const RaiseComplaintScreen: React.FC<RaiseComplaintProps> = ({ navigation
 
             <View className="mb-4">
               <Text className="mb-2 text-sm font-medium text-gray-700">Category *</Text>
-              <View className="rounded-lg border border-gray-300">
+              <View className="rounded-lg border border-gray-300 bg-white">
                 <Picker
                   selectedValue={category}
-                  onValueChange={(value) => setCategory(value as ComplaintCategory)}>
+                  onValueChange={(value) => setCategory(value as ComplaintCategory)}
+                  style={{ color: '#000000' }}>
                   {categories.map((cat) => (
-                    <Picker.Item key={cat} label={cat} value={cat} />
+                    <Picker.Item key={cat} label={cat} value={cat} color="#000000" />
                   ))}
                 </Picker>
               </View>

@@ -17,7 +17,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   }, [navigation]);
 
   return (
-    <View className="flex-1 items-center justify-center bg-gradient-to-b from-blue-500 to-blue-600">
+    <View className="flex-1 items-center justify-center bg-blue-500">
       <View className="items-center">
         <View className="mb-6 h-24 w-24 items-center justify-center rounded-3xl bg-white shadow-2xl">
           <Text className="text-6xl">📋</Text>

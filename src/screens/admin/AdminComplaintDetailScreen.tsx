@@ -141,9 +141,10 @@ export const AdminComplaintDetailScreen: React.FC<AdminComplaintDetailProps> = (
                 <View className="rounded-lg border border-gray-300 bg-white">
                   <Picker
                     selectedValue={status}
-                    onValueChange={(value) => setStatus(value as ComplaintStatus)}>
+                    onValueChange={(value) => setStatus(value as ComplaintStatus)}
+                    style={{ color: '#000000' }}>
                     {statuses.map((s) => (
-                      <Picker.Item key={s} label={s} value={s} />
+                      <Picker.Item key={s} label={s} value={s} color="#000000" />
                     ))}
                   </Picker>
                 </View>

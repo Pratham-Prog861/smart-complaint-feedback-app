@@ -468,5 +468,3 @@ This project is created for educational purposes as part of a University Develop
 Created for UDP (University Development Project)
 
 ---
-
-**For any queries or issues, please contact your project supervisor.**
