@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "Smart Complaint Feedback App",
+    "slug": "smart-complaint-feedback-app",
     "version": "1.0.0",
 
     "web": {
@@ -29,6 +29,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.pratham.smartcomplaintfeedbackapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
