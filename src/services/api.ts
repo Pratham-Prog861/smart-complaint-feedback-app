@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Update this to your backend URL
 // Use your computer's IP address when testing on a physical device
-const API_URL = 'http://192.168.1.9:5000/api';
+const API_URL =  process.env.API_URL || 'http://localhost:5000/api';
 
 console.log('API URL configured as:', API_URL);
 
