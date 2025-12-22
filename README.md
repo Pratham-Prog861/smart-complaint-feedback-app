@@ -238,40 +238,7 @@ Students can register through the app:
 - Semester
 - Phone (optional)
 
-## 🔌 API Endpoints
-
-### Authentication
-
-- `POST /api/auth/register` - Student registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/me` - Get current user
-- `PUT /api/auth/profile` - Update profile
-
-### Complaints
-
-- `POST /api/complaints` - Create complaint (Student)
-- `GET /api/complaints/my-complaints` - Get student's complaints
-- `GET /api/complaints/all` - Get all complaints (Admin)
-- `GET /api/complaints/:id` - Get complaint details
-- `PUT /api/complaints/:id/status` - Update complaint status (Admin)
-- `GET /api/complaints/stats` - Get complaint statistics (Admin)
-- `GET /api/complaints/student-stats` - Get student statistics
-
-### Feedback
-
-- `POST /api/feedback` - Submit feedback (Student)
-- `GET /api/feedback/all` - Get all feedbacks (Admin)
-- `GET /api/feedback/complaint/:id` - Get feedback for complaint
-- `GET /api/feedback/stats` - Get feedback statistics (Admin)
-
-### Users
-
-- `GET /api/users/students` - Get all students (Admin)
-- `GET /api/users/students/:id` - Get student by ID (Admin)
-- `PUT /api/users/students/:id/toggle-status` - Toggle student status (Admin)
-- `DELETE /api/users/students/:id` - Delete student (Admin)
-
-## 📊 Database Models
+## Database Models
 
 ### User Model
 
@@ -370,17 +337,7 @@ Students can register through the app:
 - **Error Handling**: Comprehensive error messages
 - **Code Organization**: Clean, modular architecture
 
-## 🐛 Troubleshooting
-
-### Backend won't start
-
-- Ensure MongoDB is running
-- Check if port 5000 is available
-- Verify .env configuration
-
-### Frontend can't connect to backend
-
-- Up� Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this UDP project, I have gained hands-on experience in:
 
@@ -417,51 +374,19 @@ Potential improvements for future iterations:
 9. Export reports to PDF/Excel
 10. WhatsApp integration for quick updates
 
-## 📊 Project Timeline
-
-- **Week 1-2:** Requirement analysis and technology selection
-- **Week 3-4:** Backend API development and database design
-- **Week 5-6:** Frontend UI development
-- **Week 7-8:** Integration and testing
-- **Week 9:** Bug fixes and optimization
-- **Week 10:** Documentation and final submission
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 I would like to express my gratitude to:
 
-- **Project Guide:** [Guide Name] for their valuable guidance and support
 - **Department Faculty** for providing resources and feedback
 - **Peers** who helped in testing and providing suggestions
 - **Online Communities** (Stack Overflow, GitHub, React Native Community) for troubleshooting help
-
-## 📄 Declaration
-
-I hereby declare that this project titled **"Smart Complaint & Public Feedback App"** is my original work and has been developed as part of the University Development Project (UDP) curriculum. All sources of information and assistance have been duly acknowledged.
-
-## 📞 Contact Information
-
-**Student Email:** [your.email@college.edu]  
-**GitHub:** [Your GitHub Profile]  
-**LinkedIn:** [Your LinkedIn Profile]
-
----
-
-**Project Supervisor:** [Supervisor Name]  
-**Department:** [Department Name]  
-**Institution:** [College/University Name]
-
----
 
 ## 📄 License
 
 This project is created for educational purposes as part of a University Development Project. All rights reserved.
 
 © 2024-2025 | University Development Project
-
----
-
-**Note:** This project was developed as part of academic curriculum and demonstrates practical implementation of concepts learned during coursework. For any queries regarding the project, please feel free to reach out.
 
 ## 👨‍💻 Author
 
