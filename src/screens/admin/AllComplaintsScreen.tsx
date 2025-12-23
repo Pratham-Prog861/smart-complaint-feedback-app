@@ -79,13 +79,29 @@ export const AllComplaintsScreen: React.FC<AllComplaintsProps> = ({ navigation }
         <View className="mb-4 gap-4">
           <View>
             <Text className="mb-2 text-sm font-medium text-gray-700">Filter by Category</Text>
-            <View className="rounded-lg border border-gray-300 bg-white">
+            <View className="overflow-hidden rounded-lg border border-gray-300 bg-white">
               <Picker
                 selectedValue={categoryFilter}
                 onValueChange={(value) => setCategoryFilter(value)}
-                style={{ color: '#000000' }}>
+                style={{
+                  color: '#1f2937',
+                  backgroundColor: '#ffffff',
+                }}
+                dropdownIconColor="#1f2937"
+                itemStyle={{
+                  color: '#1f2937',
+                  backgroundColor: '#ffffff',
+                }}>
                 {categories.map((cat) => (
-                  <Picker.Item key={cat} label={cat} value={cat} color="#000000" />
+                  <Picker.Item
+                    key={cat}
+                    label={cat}
+                    value={cat}
+                    color="#1f2937"
+                    style={{
+                      backgroundColor: '#ffffff',
+                    }}
+                  />
                 ))}
               </Picker>
             </View>
@@ -93,13 +109,29 @@ export const AllComplaintsScreen: React.FC<AllComplaintsProps> = ({ navigation }
 
           <View>
             <Text className="mb-2 text-sm font-medium text-gray-700">Filter by Status</Text>
-            <View className="rounded-lg border border-gray-300 bg-white">
+            <View className="overflow-hidden rounded-lg border border-gray-300 bg-white">
               <Picker
                 selectedValue={statusFilter}
                 onValueChange={(value) => setStatusFilter(value)}
-                style={{ color: '#000000' }}>
+                style={{
+                  color: '#1f2937',
+                  backgroundColor: '#ffffff',
+                }}
+                dropdownIconColor="#1f2937"
+                itemStyle={{
+                  color: '#1f2937',
+                  backgroundColor: '#ffffff',
+                }}>
                 {statuses.map((status) => (
-                  <Picker.Item key={status} label={status} value={status} color="#000000" />
+                  <Picker.Item
+                    key={status}
+                    label={status}
+                    value={status}
+                    color="#1f2937"
+                    style={{
+                      backgroundColor: '#ffffff',
+                    }}
+                  />
                 ))}
               </Picker>
             </View>
